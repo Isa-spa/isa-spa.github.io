@@ -1,0 +1,88 @@
+main {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center; 
+}
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
+
+.img2 {
+    position: fixed;
+    bottom: -160px;
+    left: -100px;
+    z-index: -10;
+    width: 400px;
+    opacity: 10%;
+  }
+
+.img3 {
+    position: fixed;
+    bottom: -160px;
+    right: -10px;
+    z-index: -10;
+    width: 400px;
+    opacity: 10%; 
+}
+
+
+.card, app-photos{
+    margin: auto;
+    width: 80%;
+    display: block;
+    margin-top: 2rem;
+}
+
+mat-form-field, input {
+    width: 90%;
+}
+
+.buttonSave{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.circle-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 8px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 1s ease-out;
+  }
+
+  .circle-link:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  h2{
+      color: #581845 ;
+  }
+
+  app-testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }

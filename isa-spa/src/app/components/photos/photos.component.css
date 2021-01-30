@@ -1,0 +1,27 @@
+.card{
+    margin-top: 2rem;
+}
+
+img {
+    border-radius: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+
+h3 {
+    text-align: left;
+    color: blue;
+}
+
+h2{
+    color: #B0B0B0;
+
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 1.8;
+
+}
