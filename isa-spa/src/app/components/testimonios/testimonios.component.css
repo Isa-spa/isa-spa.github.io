@@ -5,8 +5,38 @@ img {
     margin-top: 10px;
 }
 
-.carousel-control-prev {
+.img2 {
+    width: 268px;
+    height: 288px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+  }
 
+.img3 {
+    
+    width: 268px; 
+    height: 288px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
 }
 
 
+.conteiner {
+
+
+}
+
+#carouselExampleInterval{
+
+}
+
+@media screen and (max-widht: 800px){
+    .img2 {
+
+      }
+    
+    .img3 {
+ 
+    }
+}
